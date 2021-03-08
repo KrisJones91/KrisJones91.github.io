@@ -22,13 +22,12 @@
 
   @media screen and (min-width: 376px){
 .bg{
-    background: no-repeat url("images/boise.jpg");
-    min-height: 90vh;
+    background: no-repeat url("images/skyline.png");
+    min-height: 70vh;
     background-size: cover;
     background-position-x: 44%;
-    background-position-y: 5%;
+    background-position-y: 16%;
 }
-
  .title-text{
      color: #bba846;
      font-family:'Bruno Ace SC';
@@ -45,4 +44,28 @@
     top: 104%;
     text-shadow: 1px 4px 5px black;
  }
+
+ .card1{
+     background-image: url("images/mobile.png");
+     min-height: 70vh;
+     box-shadow: 1px 6px 8px black;
+     border-radius: 10px;
+ }
+ .card2{
+    background-image: url("images/buggy.png");
+    min-height: 70vh;
+    background-position-x: -301px;
+    box-shadow: 1px 6px 8px black;
+    border-radius: 10px;
+ }
+ .card3{
+    background-image: url("images/google.png");
+    min-height: 70vh;
+    box-shadow: 1px 6px 8px black;
+    border-radius: 10px;
+ }
+ .mcard{
+     border-radius: 10px;
+ }
+
 }
