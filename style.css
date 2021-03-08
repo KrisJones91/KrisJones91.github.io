@@ -1,0 +1,42 @@
+/* .title {
+      padding-bottom: .35em;
+      border-bottom: 1px solid ;
+      color:#bba846;
+ } */
+ @media screen and (min-width: 375px){
+.bg{
+    background: no-repeat url("images/boise.jpg");
+    min-height: 70vh;
+    background-size: cover;
+    background-position-x: 46.8%;
+    
+}
+ /* .title-text{
+    color: #bba846;
+    font-size: 84px;
+    font-family: 'Bruno Ace SC';
+    position: absolute;
+    top: 36%;
+    left: 3%;
+ } */
+ }
+  @media screen and (min-width: 376px){
+.bg{
+    background: no-repeat url("images/boise.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    background-position-x: 44%;
+    background-position-y: 5%;
+}
+
+ .title-text{
+     color: #bba846;
+     font-family:'Bruno Ace SC';
+     position: absolute;
+    top: 7%;
+    /* left: 34%; */
+ }
+ .t-text{
+    font-size: 100px;
+ }
+ }
