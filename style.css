@@ -3,8 +3,7 @@
     background: no-repeat url("images/boise.jpg");
     min-height: 65vh;
     background-size: cover;
-    background-position-x: 46.8%;
-    
+    background-position-x: 46.8%;  
 }
 .logo{
     margin-top: 9px;
@@ -15,6 +14,29 @@
     left: 15%;
     color: white;
  }
+
+ .card1{
+     background-image: url("images/mobile.png");
+     min-height: 25vh;
+     box-shadow: 1px 6px 8px black;
+     border-radius: 10px;
+ }
+ .card2{
+    background-image: url("images/buggy.png");
+    min-height: 25vh;
+    background-position-x: -301px;
+    box-shadow: 2px 6px 8px black;
+    border-radius: 10px;
+ }
+ .card3{
+    background-image: url("images/google.png");
+    min-height: 25vh;
+    box-shadow: 1px 6px 8px black;
+    border-radius: 10px;
+ }
+
+
+
 }
 
 
@@ -49,23 +71,37 @@
      background-image: url("images/mobile.png");
      min-height: 70vh;
      box-shadow: 1px 6px 8px black;
-     border-radius: 10px;
+     background-position-x: -51px;
+     border-radius: 10px 10px 0px 0px ;
  }
  .card2{
     background-image: url("images/buggy.png");
     min-height: 70vh;
-    background-position-x: -301px;
+    background-position-x: -338px;
     box-shadow: 1px 6px 8px black;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px ;
  }
  .card3{
     background-image: url("images/google.png");
     min-height: 70vh;
     box-shadow: 1px 6px 8px black;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px ;
  }
  .mcard{
      border-radius: 10px;
+     border: transparent;
  }
+.card1:hover{
+    cursor: pointer;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/mobile.png");
+}
+.card2:hover{
+    cursor: pointer;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/buggy.png");
+}
+.card3:hover{
+    cursor: pointer;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/google.png");
+}
 
 }
