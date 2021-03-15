@@ -103,5 +103,14 @@
     cursor: pointer;
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/google.png");
 }
-
+.profilepic{
+    background-image: url("images/profpic.png");
+    background-repeat: no-repeat;
+    background-size: 190px 283px;
+    min-height: 341px;
+    min-width: 310px;
+    background-position-x: -4%;
 }
+}
+
+
