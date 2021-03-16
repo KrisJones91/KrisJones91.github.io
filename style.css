@@ -34,7 +34,14 @@
     box-shadow: 1px 6px 8px black;
     border-radius: 10px;
  }
-
+.profilepic{
+    background-image: url("images/profpic.png");
+    background-repeat: no-repeat;
+    background-size: 190px 283px;
+    min-height: 341px;
+    min-width: 310px;
+    background-position-x: 50%;
+}
 
 
 }
